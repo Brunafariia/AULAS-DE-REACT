@@ -1,0 +1,31 @@
+
+.aluno-card {
+    border-radius: 8px;
+    margin: 8px 0;
+    padding: 8px;
+}
+
+.aprovado {
+    border: 4px solid green;
+}
+
+.reprovado {
+    border: 4px solid red;
+}
+
+/* .card {
+    width: 250px;
+    height: 180px;
+    border: 2px solid;
+    border-radius: 12px;
+    box-shadow: 3px 3px 5px darkgray;
+    padding: 15px;
+    margin: 20px;
+
+}
+
+.cards {
+    display: grid;
+    justify-content: center;
+    grid: repeat(2, [line1 line2 line3] 250px) / auto-flow 300px;
+} */
