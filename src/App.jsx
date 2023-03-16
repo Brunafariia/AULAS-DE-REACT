@@ -3,7 +3,10 @@
 // import { ListaCompras } from "./components/ListaCompras/ListaCompras";
 // import { ListaFuncionarios } from "./components/ListaFuncionarios/ListaFuncionarios";
 // import { NavBar } from "./components/NavBar/NavBar";
-import { ProductList } from "./components/ProductList/ProductList";
+// import { ProductList } from "./components/ProductList/ProductList";
+// import { Quadrado } from "./components/Quadrado/Quadrado";
+
+import { Contador } from "./components/Contador/Contador";
 
 
 export function App() {
@@ -16,8 +19,13 @@ export function App() {
             {/* <ListaAlunos />
             <ChecarNumero numero={5} />
             <ChecarNumero numero={4} /> */}
-            <ProductList />
+            {/* <ProductList /> */}
+            {/* <Quadrado /> */}
+            <Contador />
+
 
         </>
     );
 }
+
+// crtl + space + enter para importar automatico
