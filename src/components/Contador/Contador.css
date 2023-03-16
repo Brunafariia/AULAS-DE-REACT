@@ -1,0 +1,36 @@
+.contador {
+    width: 100%;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.contador-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    height: 100vh;
+}
+
+.contador-container button{
+    width: 100px;
+    background: #e99c0d;
+    gap: 20px;
+    padding: 20px;
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    transition: .3s;
+    border-radius: 8px;
+}
+
+.contador-container button:hover{
+    transform: scale(1.2);
+}

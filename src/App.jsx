@@ -6,8 +6,8 @@
 // import { ProductList } from "./components/ProductList/ProductList";
 // import { Quadrado } from "./components/Quadrado/Quadrado";
 
-import { Contador } from "./components/Contador/Contador";
-
+// import { Contador } from "./components/Contador/Contador";
+import { Cadastro } from "./components/Cadastro/Cadastro";
 
 export function App() {
     return (
@@ -21,9 +21,8 @@ export function App() {
             <ChecarNumero numero={4} /> */}
             {/* <ProductList /> */}
             {/* <Quadrado /> */}
-            <Contador />
-
-
+            {/* <Contador /> */}
+            <Cadastro />
         </>
     );
 }
