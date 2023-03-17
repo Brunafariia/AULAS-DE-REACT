@@ -6,9 +6,10 @@
 // import { ProductList } from "./components/ProductList/ProductList";
 // import { Quadrado } from "./components/Quadrado/Quadrado";
 
-// import { Contador } from "./components/Contador/Contador";
-import { Cadastro } from "./components/Cadastro/Cadastro";
+// // import { Contador } from "./components/Contador/Contador";
+// import { Cadastro } from "./components/Cadastro/Cadastro";
 
+import { ListFruits } from "./components/ListFruits/ListFruits";
 export function App() {
     return (
         <>
@@ -22,7 +23,9 @@ export function App() {
             {/* <ProductList /> */}
             {/* <Quadrado /> */}
             {/* <Contador /> */}
-            <Cadastro />
+            {/* <Cadastro /> */}
+            <ListFruits />
+
         </>
     );
 }
