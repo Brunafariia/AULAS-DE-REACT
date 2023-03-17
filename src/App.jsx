@@ -5,11 +5,10 @@
 // import { NavBar } from "./components/NavBar/NavBar";
 // import { ProductList } from "./components/ProductList/ProductList";
 // import { Quadrado } from "./components/Quadrado/Quadrado";
-
 // // import { Contador } from "./components/Contador/Contador";
 // import { Cadastro } from "./components/Cadastro/Cadastro";
-
-import { ListFruits } from "./components/ListFruits/ListFruits";
+// import { ListFruits } from "./components/ListFruits/ListFruits";
+import { Sorteio } from "./components/Sorteio/Sorteio";
 export function App() {
     return (
         <>
@@ -24,10 +23,11 @@ export function App() {
             {/* <Quadrado /> */}
             {/* <Contador /> */}
             {/* <Cadastro /> */}
-            <ListFruits />
-
+            {/* <ListFruits /> */}
+            <Sorteio />
+            
         </>
     );
 }
 
-// crtl + space + enter para importar automatico
+// crtl + space + enter para importar automático
