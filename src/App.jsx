@@ -8,7 +8,11 @@
 // // import { Contador } from "./components/Contador/Contador";
 // import { Cadastro } from "./components/Cadastro/Cadastro";
 // import { ListFruits } from "./components/ListFruits/ListFruits";
-import { Sorteio } from "./components/Sorteio/Sorteio";
+// import { Abas } from "./components/Abas/Abas";
+
+import { QuestaoQuiz } from "./components/QuestaoQuiz/QuestaoQuiz";
+
+// import { Sorteio } from "./components/Sorteio/Sorteio";
 export function App() {
     return (
         <>
@@ -24,7 +28,9 @@ export function App() {
             {/* <Contador /> */}
             {/* <Cadastro /> */}
             {/* <ListFruits /> */}
-            <Sorteio />
+            {/* <Sorteio /> */}
+            {/* <Abas /> */}
+            <QuestaoQuiz />
             
         </>
     );
