@@ -1,21 +1,27 @@
-// 1) Montar uma calculadora de IMC (campo largura e campo altura), mostrar o resultado do cálculo abaixo dos campos ao clicar em calcular.
-
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import "./Desafio1.css";
 
 
 export function Desafio1() {
     const [peso, setPeso] = useState(0);
     const [altura, setAltura] = useState(0);
+    // -1 indica que não houve calculo
     const [imc, setImc] = useState(-1);
 
 
-    function calcularImc() {
+    useEffect(() => {
         const resultado = peso / (altura * altura);
         setImc(resultado);
-    }
+    }, [peso, altura]);
 
-    function limpar () {
+
+    // function calcularImc() {
+    //   const resultado = peso / (altura * altura);
+    //   setImc(resultado);
+    // }
+
+
+    function limpar() {
         setPeso(0);
         setAltura(0);
         setImc(-1);
@@ -38,10 +44,10 @@ export function Desafio1() {
                 value={altura}
             />
             <br />
-            <button onClick={calcularImc}>Calcular</button>
+            {/* <button onClick={calcularImc}>Calcular</button> */}
             <button onClick={limpar}>Limpar</button>
             <hr />
-            {(imc > -1) && <p>O seu IMC é: {imc.toFixed(2)}</p>}
+            {(imc !== Infinity && !isNaN(imc)) && <p>O seu IMC é: {imc.toFixed(2)}</p>}
         </div>
     );
 }
@@ -51,5 +57,5 @@ export function Desafio1() {
 
 
 // - onChange
-// Função para coletar o valor
-// Estado pra armazenar
+// - Função para coletar o valor
+// - Estado pra armazenar
