@@ -10,9 +10,11 @@
 // import { ListFruits } from "./components/ListFruits/ListFruits";
 // import { Abas } from "./components/Abas/Abas";
 
-import { QuestaoQuiz } from "./components/QuestaoQuiz/QuestaoQuiz";
+// import { QuestaoQuiz } from "./components/QuestaoQuiz/QuestaoQuiz";
 
 // import { Sorteio } from "./components/Sorteio/Sorteio";
+
+import { Desafio1 } from "./components/Desafio1/Desafio1";
 export function App() {
     return (
         <>
@@ -30,7 +32,8 @@ export function App() {
             {/* <ListFruits /> */}
             {/* <Sorteio /> */}
             {/* <Abas /> */}
-            <QuestaoQuiz />
+            {/* <QuestaoQuiz /> */}
+            <Desafio1 />
             
         </>
     );
