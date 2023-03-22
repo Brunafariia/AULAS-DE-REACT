@@ -11,12 +11,12 @@
 // import { Abas } from "./components/Abas/Abas";
 // import { QuestaoQuiz } from "./components/QuestaoQuiz/QuestaoQuiz";
 // import { Sorteio } from "./components/Sorteio/Sorteio";
-// import { Desafio1 } from "./components/Desafio1/Desafio1";
+import { Desafio1 } from "./components/Desafio1/Desafio1";
 // import { Desafio2 } from "./components/Desafio2/Desafio2";
 // import { Desafio3 } from "./components/Desafio3/Desafio3";
 // import { ConversorTemp } from "./components/ConversorTemp/ConversorTemp";
 // import { ConversorMetros } from "./components/ConversorMetros/ConversorMetros";
-import { Dicionario } from "./components/Discionario/Discionario";
+// import { Dicionario } from "./components/Dicionario/Dicionario";
 // import { CalculadoraPorcentagem } from "./components/CalculadoraPorcentagem/CalculadoraPorcentagem";
 
 export function App() {
@@ -38,12 +38,12 @@ export function App() {
             {/* <Sorteio /> */}
             {/* <Abas /> */}
             {/* <QuestaoQuiz /> */}
-            {/* <Desafio1 /> */}
+            <Desafio1 />
             {/* <Desafio2 />  */}
             {/* <Desafio3 /> */}
             {/* <ConversorTemp />
             <ConversorMetros /> */}
-            <Discionario />
+            {/* <Dicionario /> */}
             {/* <CalculadoraPorcentagem /> */}
             
         </>
